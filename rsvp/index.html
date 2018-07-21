@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ben & Siobhan's Wedding - RSVP</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css" />
+    <link rel="stylesheet" type="text/css" href="rsvp.css" />
+  </head>
+  <body>
+    <h1>Ben & Siobhan's Wedding</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/venue">Venue</a></li>
+        <li><a href="/schedule">Schedule</a></li>
+        <li><a href="/accommodation">Accommodation</a></li>
+        <li class="selected"><a href="/rsvp">RSVP</a></li>
+        <li><a href="/wedding_party">Wedding Party</a></li>
+      </ul>
+    </nav>
+    <section id="rsvp">
+      <form id="rsvp-form" action="submit.php" method="POST">
+        <fieldset id="rsvp-fieldset">
+          <h2 id="rsvp-heading">Rsvp</h2>
+          <fieldset id="response-fieldset">
+            <label>
+              <input required type="radio" name="response" value="accept" /><span>Accept</span>
+            </label>
+            <label>
+              <input required type="radio" name="response" value="decline" /><span>Decline</span>
+            </label>
+          </fieldset>
+          <h3>Name(s)</h3>
+          <input required type="text" name="names" />
+          <h3 id="dietary_requirements_heading">Dietary Requirements</h3>
+          <label>
+            <input required type="radio" name="dietary_requirements" value="none" /><span>None</span>
+          </label>
+          <label>
+            <input required type="radio" name="dietary_requirements" value="vegetarian" /><span>Vegetarian</span>
+          </label>
+            <label>
+            <input required type="radio" name="dietary_requirements" value="other" /><span>Other (please specify)</span>
+          </label>
+          <input id="other_dietary_requirements" type="text" name="other_dietary_requirements" />
+          <label>
+            <input type="checkbox" name="leaving_early"><span>Likely to be leaving before evening food at 9.30pm</span>
+          </label>
+          <h3>Comments</h3>
+          <input type="text" name="comments" />
+          <button type="submit" name="submit">Submit</button>
+        </fieldset>
+      </form>
+      <h2>Honeymoon</h2>
+      <a id="honeymoon-link" href="/honeymoon"><img id="suitcase" src="images/suitcase.png"></a>
+      <a id="honeymoon-link" href="/honeymoon">About our honeymoon.</a>
+    </section>
+    <footer>
+      <img id="hearts" src="../images/hearts.png" />
+      <nav>
+        <ul>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/photos">Photos</a></li>
+          <li><a href="/honeymoon">Honeymoon</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  
+</html>

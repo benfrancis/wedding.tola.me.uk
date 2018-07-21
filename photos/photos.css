@@ -1,0 +1,22 @@
+section#photos {
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  background-color: #757079;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 3rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  vertical-align: middle;
+  margin: 1rem auto;
+  display: block;
+  color: #fff;
+}

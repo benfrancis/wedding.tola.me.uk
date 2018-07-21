@@ -1,0 +1,26 @@
+#map, #map img {
+  display: block;
+  margin: 1rem auto;
+}
+
+#map-link {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#map-link img {
+  vertical-align: middle;
+  padding-right: 0.5rem;
+}
+
+#address {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#location-heading {
+  margin: 0 auto;
+  text-align: center;
+}

@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'AlexBrush';
+  src: url('../fonts/AlexBrush.eot');
+  src: url('../fonts/AlexBrush.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AlexBrush.woff') format('woff'),
+  url('../fonts/AlexBrush.ttf') format('truetype'),
+  url('../fonts/AlexBrush.svg#webfont') format('svg');
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #a8c0b6;
+  color: #333333;
+  font-size:1.5rem;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-family: AlexBrush, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 66px;
+}
+
+nav { 
+  margin: 0 auto;
+  text-align: center;
+  font-family: serif;
+  font-size: 1.75rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 1rem;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 1rem;
+  opacity: 0.5;
+}
+
+footer nav ul li {
+  font-size: 1.5rem;
+}
+
+nav ul li.selected {
+  opacity: 1;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  opacity: 0.75;
+}
+
+nav ul li.selected a {
+  color: #fff;
+}
+
+.intro {
+  text-align: center;
+}
+
+h2 {
+  font-family: AlexBrush, Helvetica, sans-serif;
+  font-size: 4.5rem;
+  font-weight: normal;
+  color: #757079;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+section {
+  width: 800px;
+  margin: 0 auto;
+  font-family: serif;
+}
+
+img.headline-image {
+  display: block;
+  margin: 2rem auto;
+}
+
+.photo {
+  border: solid 10px white;
+}
+
+#hearts {
+  display: block;
+  margin: 3rem auto;
+}
+
+a {
+  color: #2c89a0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

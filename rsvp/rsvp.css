@@ -1,0 +1,119 @@
+#rsvp-form {
+  width: 55rem;
+  background-color: #a89561;
+  background-image: url('images/rsvp_background.jpg');
+  background-size: cover;
+  padding: 0.75rem;
+  margin: 2rem auto;
+  color: #222d28;
+}
+
+fieldset {
+  border: solid 1px black;
+  padding: 1.75rem;
+}
+
+#rsvp-heading {
+  float: left;
+  font-family: AlexBrush, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 7.5rem;
+  transform: rotate(-25deg) translateY(-5rem);
+  transform-origin: top left;
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  color: #222d28;
+}
+
+#rsvp-form h3 {
+  margin: 0;
+  margin-top: 2rem;
+  clear: both;
+  font-size: 1.5rem;
+}
+
+#rsvp-form label {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+#response-fieldset {
+  margin: 1rem 5rem;
+  float: left;
+  border: none;
+  font-weight: bold;
+}
+
+#rsvp-form input[type="radio"], #rsvp-form input[type="checkbox"] {
+  border: 0; 
+  clip: rect(0 0 0 0);
+  height: 1px; margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#rsvp-form input[type="radio"] + span:before,
+#rsvp-form input[type="checkbox"] + span:before {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  border: 1px solid #000;
+  margin-right: 0.75rem;
+  font-size: 1.7rem;
+}
+
+#rsvp-form input[type="radio"]:checked + span:before,
+#rsvp-form input[type="checkbox"]:checked + span:before {
+  content:'\2714';
+  text-indent: 0.4rem;
+}
+
+#rsvp-form input[type=text] {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px black;
+  width: 100%;
+  font-size: 1.75rem;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
+
+#rsvp-form button {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 1.75rem;
+  color: #fff;
+  border: none;
+  font-weight: normal;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  margin: 2rem auto 0 auto;
+  transition: background-color 0.25s;
+}
+
+#rsvp-form button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#rsvp-form button:active {
+background-color: rgba(0, 0, 0, 0.75);
+}
+
+h3#dietary_requirements_heading {
+  margin-bottom: 1rem;
+}
+
+#other_dietary_requirements {
+  margin-top: 1rem;
+}
+
+h2, #honeymoon-link, #suitcase {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}

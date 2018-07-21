@@ -1,0 +1,9 @@
+section#contact {
+  text-align: center;
+}
+
+section#contact p {
+  width: 60rem;
+  display: block;
+  margin: 2rem auto;
+}

@@ -1,0 +1,27 @@
+#soon {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.photo {
+  border: solid 1rem white;
+}
+
+.photo.right {
+  float: right;
+  transform: rotate(5deg);
+  margin: 2rem 0 2rem 3rem;
+}
+
+.photo.left {
+  float: left;
+  transform: rotate(-5deg);
+  margin: 2rem 3rem 2rem 0;
+}
+
+#special-mentions {
+  clear: both;
+}

@@ -1,0 +1,38 @@
+section#honeymoon {
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+#contribute-button {
+  display: block;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #757079;
+  border-radius: 0.5rem;
+  width: 15rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+section#honeymoon p {
+  width: 60rem;
+  display: block;
+  margin: 2rem auto;
+}
+
+section#honeymoon img {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#contribute-button:hover {
+  text-decoration: none;
+  background-color: #89848d;
+}
+
+#contribute-button:active {
+  background-color: #a39fa7;
+}
